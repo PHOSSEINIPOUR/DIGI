@@ -1,0 +1,113 @@
+.amazing{
+  width: 1300px;
+  height: 340px;
+  padding: 20px;
+  .amazing__center{
+    width: 1300px;
+    height: 300px;
+    background-color: crimson;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow-x: hidden;
+    padding: 20px 3px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide-item{
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 25px;
+      }
+      .swiper-slider-product{
+        display: flex;
+        padding: 10px;
+        flex-flow: column wrap;
+        row-gap: 5px;
+        margin-bottom: 60px;
+        img{
+          width: 150px;
+          height: 150px;
+        }
+        div{
+          display: flex;
+          flex-flow: row-reverse wrap;
+          justify-content: space-between;
+          h5{
+           font-family: var(--BNazanin);
+           font-size: 20px;
+           font-weight: normal;
+           color: black;
+           text-decoration: none;
+           .eleman{
+            display: flex; 
+           }
+          }
+          h6{
+            font-family: var(--BNazanin);
+            font-size: 15px;
+            font-weight: normal;
+            background-color: crimson;
+            padding: 0 10px;
+            border-radius: 20px;
+            color: white;
+          }
+        }
+        h5{
+          color: rgb(184, 180, 180);
+          font-size: 16px;
+          font-family: var(--BNazanin);
+          font-weight: normal;
+          text-align: left;
+          text-decoration: line-through;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.active{
+  background-color: crimson !important;
+  .image__item1{
+    width: 92px !important;
+    height: 77px !important;
+    margin-top: 5px !important
+  }
+  .image__item2{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .item__link{
+    font-family: var(--IranYekan);
+    text-decoration:none ;
+    font-size: 12px;
+    color: white;
+    font-size: 12px;
+  }
+}
+.bTrBr{
+  border-radius: 0 15px 15px 0;
+}
+.bRTlBl{
+  border-radius: 0 15px 15px 0;
+}
+              
+    
+
+
+
+ 
