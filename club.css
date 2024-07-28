@@ -1,0 +1,19 @@
+.club{
+    width: 1300px;
+    height: 101px;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+   .club__image{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    object-fit: cover;
+    margin-right: 350px;
+    background-color: black;
+
+}
+}

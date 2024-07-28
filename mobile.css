@@ -1,0 +1,34 @@
+.mobile{
+    display: flex;
+    flex-direction: row wrap;
+
+}
+.left__{
+    border: 1px solid rgb(211, 203, 203);
+    width: 165px;
+    height: 240px;
+    border-radius: 0px 15px 0px 0px;
+}
+.center__{
+    border: 1px solid rgb(211, 203, 203);
+    width: 165px;
+    height: 240px;
+}
+.right__{
+    border: 1px solid rgb(211, 203, 203);
+    width: 165px;
+    height: 240px;
+    border-radius: 15px 0px 0px 0px;
+}
+.mobile-image{
+    margin-right: 17px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 145px;
+    height: 145px;
+
+}
+
+
+   
+

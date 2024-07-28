@@ -1,0 +1,9 @@
+.mobiletext{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 4px;
+    padding: 0px 0px 4px 2px;
+    text-align: right;
+    font-family: var(--IranYekan);
+}

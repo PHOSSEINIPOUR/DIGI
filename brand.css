@@ -1,0 +1,46 @@
+.brand{
+  width: 1320px;
+  height: 240px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  margin-right: 12px;
+  background-color: whitesmoke;
+  .brand__center{
+    display: flex;
+    flex-direction: row wrap;
+    width: 100%;
+    height: 100%;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper_slide_prouductive{
+        display: flex;
+        padding: 10px;
+        flex-flow: column wrap;
+        margin-bottom: 90px;
+      
+         
+     
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+  }
+}
+}

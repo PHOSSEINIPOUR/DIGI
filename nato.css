@@ -1,0 +1,18 @@
+.nato{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 80px 15px 5px;
+    .big{
+        font-size: 12px;
+        font-weight: 12px;
+        text-align: center;
+        font-family: var(--IranYekan);
+        
+        .nato__image{
+            margin-top: 15px;
+            width: 110px;
+            height: 110px;
+            margin-right: 50px;
+        }
+    }
+}

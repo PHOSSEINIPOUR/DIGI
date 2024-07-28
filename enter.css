@@ -1,0 +1,94 @@
+.enter{
+    width: 397px;
+    height: 439px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin-top: 100px;
+    .enter__logo{
+       margin-top: 30px;
+       img{
+        width: 170px;
+        
+       }
+    }
+    .enter__first{
+        font-family: var(--IranYekan);
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        margin-left: 250px;
+        margin-top: 15px;
+        row-gap: 10px; 
+}
+.enter__second{
+    font-family: var(--IranYekan);
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 315px;
+    margin-top: 25px;
+    color: #2b2b2b;
+
+}
+.enter__third{
+    font-family: var(--IranYekan);
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 27px;
+    color: #2b2b2b;
+    display: flex;
+    flex-flow: nowrap;
+}
+.enter__forth{
+    width: 338px;
+    height: 50px;
+    margin-top: 26px;
+    border: 1px solid crimson;
+    border-radius: 15px;
+}
+.enter__fifth{
+    font-family: var(--IranYekan);
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1px;
+    margin-right: 31px;
+    color: crimson;
+    display: flex;
+    flex-flow: nowrap;
+
+}
+.enter__six{
+    width: 338px;
+    height: 50px;
+    margin-top: 26px;
+    border: 1px solid crimson;
+    border-radius: 15px;
+    background-color: crimson;
+font-family: var(--IranYekan);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    .six__maatn{
+        margin-top: 10px;
+    }
+    }
+    .enter__seventh{
+        font-family: var(--IranYekan);
+        font-size: 11px;
+        font-weight: normal;
+        text-align: center;
+        margin-top: 23px;
+        margin-right: 31px;
+        color:#2b2b2b;
+        display: flex;
+        flex-flow: nowrap;
+    
+
+    }
+}
+

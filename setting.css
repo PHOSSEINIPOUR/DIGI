@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+   font-family: IranYekan;
+   src: url('../../font/fa/IRANYekanWeb.eot');
+   src: url('../../font/fa/IRANYekanWeb.ttf');
+   src: url('../../font/fa/IRANYekanWeb.woff');
+   src: url('../../font/fa/IRANYekanWeb.woff2');
+}
+@font-face{
+   font-family: BNazanin;
+   src: url('../../font/fa/B-NAZANIN.TTF');
+}
+:root{
+   --IranYekan:IranYekan;
+   --BNazanin:BNazanin;
+}
+.wrapper{
+   width: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-button-prev,
+ .swiper-rtl .swiper-button-next{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+ }
+ .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+ }
+ 
